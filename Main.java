@@ -4,11 +4,11 @@ public class Main {
   public static void main(String[] args) {
     int year = 2020; 
     Scanner scan = new Scanner(System.in);
-    System.out.println(year);
+    
     for(int i= 0; i < 3; i++){
-    System.out.println("is it leap year");
-    }
-    boolean isLeap = scan.nextBoolean();
+      System.out.println(year);
+      System.out.println("is it leap year");
+      boolean isLeap = scan.nextBoolean();
        if((year % 4 == 0)&& (year % 100 == 0)) 
        {
         if(isLeap){ 
@@ -18,5 +18,7 @@ public class Main {
       else{
          System.out.println(" it is not leap year "); 
       }
+      year++;
+    }
   }
 }
