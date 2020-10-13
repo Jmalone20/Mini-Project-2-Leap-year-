@@ -5,7 +5,9 @@ public class Main {
     int year = 2020; 
     Scanner scan = new Scanner(System.in);
     System.out.println(year);
+    for(int i= 0; i < 3; i++){
     System.out.println("is it leap year");
+    }
     boolean isLeap = scan.nextBoolean();
        if((year % 4 == 0)&& (year % 100 == 0)) 
        {
